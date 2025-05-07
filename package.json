@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  
+  "homepage": "https://Anguelo11.github.io/formulario-React",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
