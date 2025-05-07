@@ -5,11 +5,7 @@ import Feedback from '../components/FeedbackForm';
 const Paths = () => {
     return(
         <>
-            <BrowserRouter>
-                <Routes>
-                    <Route path="/" element={<Feedback/>}/>
-                </Routes>
-            </BrowserRouter>
+           <BrowserRouter basename="/formulario-React"></BrowserRouter>
         </>
     );
 }
