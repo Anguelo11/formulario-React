@@ -1,6 +1,6 @@
 import 'primeflex/primeflex.css';
 import 'primereact/resources/themes/lara-light-blue/theme.css';
-import Feedback from './components/FeedbackForm';
+import Paths from './routes/Paths';
 import 'primeflex/themes/primeone-light.css';
 
 const App = () => {
@@ -8,7 +8,7 @@ const App = () => {
 
   return (
     <>
-      <Feedback/>
+      <Paths/>
     </>
   );
 }
